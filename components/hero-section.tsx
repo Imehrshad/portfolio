@@ -117,12 +117,12 @@ export function HeroSection() {
             >
               View My Work
             </Link>
-            <Button
+            <button
               onClick={handleDownload}
-              className=" border-border/50 md:px-8 md:py-2 px-6 py-2  md:text-lg text-base bg-primary text-white"
+              className=" bg-primary rounded-xl border-0 text-white md:px-8 md:py-2 px-6 py-2 md:text-lg text-base"
             >
              {isDownloading ? "Downloading..." :"Download CV"}
-            </Button>
+            </button>
           </motion.div>
 
           <motion.div
