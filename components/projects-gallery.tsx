@@ -243,7 +243,7 @@ export function ProjectsGallery() {
                     <h4 className="font-semibold text-foreground mb-3">Technologies Used</h4>
                     <div className="flex flex-wrap gap-2">
                       {selectedProject.technologies.map((tech) => (
-                        <Badge key={tech} variant="secondary" className="text-xs">
+                        <Badge key={tech} variant="secondary" className="text-xs border-[0.5px] border-gray-600/40">
                           {tech}
                         </Badge>
                       ))}
