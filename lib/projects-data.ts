@@ -5,7 +5,7 @@ export const projectsData = [
     title: "E-Commerce Platform",
     description:
       "A modern e-commerce platform built with Next.js, featuring real-time inventory, payment processing, and admin dashboard. Includes user authentication, product management, and order tracking.",
-    image: "/modern-ecommerce-interface.png",
+    image: "/modern-ecommerce-interface.webp",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe", "PostgreSQL", "Prisma"],
     liveUrl: "https://example.com",
     githubUrl: "https://github.com/example",

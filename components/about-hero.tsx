@@ -21,7 +21,7 @@ export function AboutHero() {
               <Image
                 width={100}
                 height={300}
-                src="/profile-picture.jpg"
+                src="/profile-picture.webp"
                 alt="About Me - Professional Portrait"
                 className="w-full h-full object-cover"
               />

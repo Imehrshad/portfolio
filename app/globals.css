@@ -253,3 +253,6 @@
 ::-webkit-scrollbar-thumb:hover {
   background: oklch(0.4 0.08 240);
 }
+.my-animated-element {
+  will-change: transform, opacity;
+}

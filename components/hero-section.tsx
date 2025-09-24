@@ -32,7 +32,7 @@ export function HeroSection() {
               <Image
                 width={50}
                 height={50}
-                src="/mehrshad.jpg"
+                src="/mehrshad.webp"
                 alt="Your Name - Professional Portrait"
                 className="w-full h-full object-cover"
               />
@@ -119,7 +119,7 @@ export function HeroSection() {
             </Link>
             <Button
               onClick={handleDownload}
-              className=" border-border/50 md:px-8 md:py-6 px-6 py-4 md:text-lg text-base bg-primary text-white"
+              className=" border-border/50 md:px-8 md:py-2 px-6 py-2  md:text-lg text-base bg-primary text-white"
             >
              {isDownloading ? "Downloading..." :"Download CV"}
             </Button>
@@ -167,7 +167,7 @@ export function HeroSection() {
               <Image
                 width={100}
                 height={100}
-                src="/mehrshad.jpg"
+                src="/mehrshad.webp"
                 alt="Your Name - Professional Portrait"
                 className="w-full h-full object-cover"
               />

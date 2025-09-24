@@ -16,7 +16,7 @@ const projects = [
     title: "Yolpak Bussiness Panel",
     description:
       "A package delivery system in Turkey that streamlines logistics and tracking. Built with modern front-end technologies for a responsive and user-friendly experience.",
-    image: "/Yolpak.png",
+    image: "/Yolpak.webp",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "React Query"],
     liveUrl: "https://yolpakb.shinypi.net/",
     featured: true,
@@ -26,7 +26,7 @@ const projects = [
     title: "Prop360",
     description:
       "A real estate platform where investors can find builders on an interactive map, with all key information highlighted for informed decisions.",
-    image: "/Prop 360.png",
+    image: "/Prop 360.webp",
     technologies: ["Nextjs", "React Query", "Leaflet", "Tailwind CSS"],
     liveUrl: "https://prop.shinypi.net/",
     featured: true,
@@ -36,7 +36,7 @@ const projects = [
     title: "Immimatch",
     description:
       "A platform connecting lawyers and applicants for immigration cases. Lawyers can submit cases, and applicants can find the most suitable options efficiently.",
-    image: "/Immimatch.png",
+    image: "/Immimatch.webp",
     technologies: [
       "React",
       "Chart.js",
@@ -53,7 +53,7 @@ const projects = [
     title: "Setak Panel",
     description:
       "A platform for Iranian lawyers to create case files for properties, find collaboration projects, and manage their work efficiently with built-in tools. Supports sharing and easy project tracking.",
-    image: "/setak-panel.png",
+    image: "/setak-panel.webp",
     technologies: [
       "Next.js",
       "React",
@@ -71,7 +71,7 @@ const projects = [
     title: "Yolpak Landing Page",
     description:
       "A responsive landing page for the Yolpak package delivery system in Turkey. Designed with modern front-end technologies for smooth animations, clear UI, and a user-friendly experience.",
-    image: "/Yolpak Landing.png",
+    image: "/Yolpak Landing.webp",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
     liveUrl: "https://yolpak.com/",
     featured: false,
@@ -112,7 +112,7 @@ export function ProjectsCarousel() {
 
         {/* Desktop Carousel */}
         <div className="hidden md:block">
-          <Carousel opts={{ align: "start", loop: true }} setApi={setApi}>
+          <Carousel  opts={{ align: "start", loop: true }} setApi={setApi}>
             <CarouselContent className="-ml-4">
               {projects.map((project, index) => (
                 <CarouselItem key={project.id} className="pl-4 md:basis-1/2 lg:basis-1/3 ">

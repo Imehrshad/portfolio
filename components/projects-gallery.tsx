@@ -13,7 +13,7 @@ const allProjects = [
     title: "Yolpak Bussiness Panel",
     description:
       "A package delivery system in Turkey that streamlines logistics and tracking. Built with modern front-end technologies for a responsive and user-friendly experience.",
-    image: "/Yolpak.png",
+    image: "/Yolpak.webp",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "React Query"],
     liveUrl: "https://yolpakb.shinypi.net/",
     githubUrl: "", // add if available
@@ -28,7 +28,7 @@ const allProjects = [
     title: "Prop360",
     description:
       "A real estate platform where investors can find builders on an interactive map, with all key information highlighted for informed decisions.",
-    image: "/Prop 360.png",
+    image: "/Prop 360.webp",
     technologies: ["Next.js", "React Query", "Leaflet", "Tailwind CSS"],
     liveUrl: "https://prop.shinypi.net/",
     githubUrl: "",
@@ -43,7 +43,7 @@ const allProjects = [
     title: "Immimatch",
     description:
       "A platform connecting lawyers and applicants for immigration cases. Lawyers can submit cases, and applicants can find the most suitable options efficiently.",
-    image: "/Immimatch.png",
+    image: "/Immimatch.webp",
     technologies: ["React", "Chart.js", "React Query", "React Hook Form", "Tailwind CSS"],
     liveUrl: "https://chapar.shinypi.net/",
     githubUrl: "",
@@ -58,7 +58,7 @@ const allProjects = [
     title: "Setak Panel",
     description:
       "A platform for Iranian lawyers to create case files for properties, find collaboration projects, and manage their work efficiently with built-in tools. Supports sharing and easy project tracking.",
-    image: "/setak-panel.png",
+    image: "/setak-panel.webp",
     technologies: ["Next.js", "React", "Tailwind CSS", "Axios", "React Query", "React Hook Form"],
     liveUrl: "https://panel.setakpro.ir/",
     githubUrl: "",
@@ -73,7 +73,7 @@ const allProjects = [
     title: "Yolpak Landing Page",
     description:
       "A responsive landing page for the Yolpak package delivery system in Turkey. Designed with modern front-end technologies for smooth animations, clear UI, and a user-friendly experience.",
-    image: "/Yolpak Landing.png",
+    image: "/Yolpak Landing.webp",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
     liveUrl: "https://yolpak.com/",
     githubUrl: "",

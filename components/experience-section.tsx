@@ -61,7 +61,7 @@ export function ExperienceSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-16"
+          className="text-center mb-16 my-animated-element "
         >
           <h2 className="text-4xl lg:text-5xl font-bold mb-6 text-balance text-white">Experience & Education</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
@@ -75,7 +75,7 @@ export function ExperienceSection() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-2xl font-bold mb-8 text-primary"
+            className="text-2xl font-bold mb-8 text-primary "
           >
             Professional Experience
           </motion.h3>
