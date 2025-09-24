@@ -63,7 +63,7 @@ export function ExperienceSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl lg:text-5xl font-bold mb-6 text-balance">Experience & Education</h2>
+          <h2 className="text-4xl lg:text-5xl font-bold mb-6 text-balance text-white">Experience & Education</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
             My professional journey and continuous learning path
           </p>
