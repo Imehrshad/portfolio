@@ -222,19 +222,19 @@ export function ProjectsGallery() {
                     <div className="space-y-2 text-sm">
                       <div className="flex justify-between">
                         <span className="text-muted-foreground">Category:</span>
-                        <span className="text-foreground">{selectedProject.category}</span>
+                        <span className="text-muted-foreground">{selectedProject.category}</span>
                       </div>
                       <div className="flex justify-between">
                         <span className="text-muted-foreground">Year:</span>
-                        <span className="text-foreground">{selectedProject.year}</span>
+                        <span className="text-muted-foreground">{selectedProject.year}</span>
                       </div>
                       <div className="flex justify-between">
                         <span className="text-muted-foreground">Team:</span>
-                        <span className="text-foreground">{selectedProject.team}</span>
+                        <span className="text-muted-foreground">{selectedProject.team}</span>
                       </div>
                       <div className="flex justify-between">
                         <span className="text-muted-foreground">Duration:</span>
-                        <span className="text-foreground">{selectedProject.duration}</span>
+                        <span className="text-muted-foreground">{selectedProject.duration}</span>
                       </div>
                     </div>
                   </div>
